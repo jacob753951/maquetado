@@ -1,0 +1,44 @@
+<style>
+        /* nuestro codigo CSS*/
+        /*reglas de CSS
+        1selector
+        2{
+        3 nombre de la propiedad
+        4valor de la propiedad;
+        5}
+        */
+        
+        
+        
+        /* selector de etiqueta , todo lo que tenga la etiqueta span sera afectado*/
+        span{
+          color: white;
+          font-size: 50px;
+          
+        }
+        
+        /* selector de id es # */
+          #parrafo_introduccion{
+          color: yellow;
+          font-weight: 800;
+         } 
+         #parrafo_introduccion strong{
+            color: green;
+         }
+
+         p{
+          color: white;
+         }
+         /* para el selector de classes se usa "punto" . */
+         .parrafo_griss{
+          color: rgb(196, 150, 150);
+          
+         }
+         .parrafo_rosa{
+          color:pink
+         }
+
+         strong{
+            
+         }
+     </style>
