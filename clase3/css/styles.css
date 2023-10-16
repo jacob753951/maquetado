@@ -1,0 +1,106 @@
+/* selector hijo */
+
+/*selecciona la etieuqta span que sea hijo directo de la etiqueta div*/
+div.selector_hijo  > span {
+    font-size: 50px;
+    color: aqua;
+
+}
+div.selector_hijo a > span {
+    color: blueviolet;
+    font-size: 30px;
+
+}
+/* selector adyacente */
+div.selector_adyacente h3 + p {
+    background-color: black;
+    color: yellow;
+
+}
+/* selector de hemranos generales */
+div.selector_hermano_general h4 ~ p {
+    
+    background-color: aqua;
+    color: brown;
+}
+
+/* quita las viñetas */
+nav ul {
+    list-style: none;
+}
+
+/* pseudoclases */
+.body2 {
+    background-color: #fcf7f8;
+}
+.contenedor{
+    text-align: center;
+    border: 2px solid #c7bbbb;
+    margin: 10px;
+}
+
+.enlace {
+    margin: 10px;
+    text-decoration: none;
+}
+/*  hover es cuando pasamos el mouse encima de un elemento */
+.enlace:hover{
+
+    font-size: 20px;
+    text-decoration: underline;
+}
+/* cuando le estamos dando clik pero casi no se usa */
+.enlace:active {
+    background-color: rgb(19, 3, 3);
+}
+/* cuando le dimos clicl  */
+.enlace:visited{
+    color: green;
+}
+/* los enlaces que hemos visitado */
+.enlace:link {
+    color: rgb(0, 166, 255);
+}
+
+
+
+.parrafos p {
+    background-color: grey;
+    padding: 10px;
+    margin: 10px;
+}
+/* fist child && last child */
+
+.parrafos p:first-child{
+    
+    background-color: aqua;
+}
+
+
+/* last child */
+
+.parrafos p:last-child{
+    
+    background-color: rgb(15, 76, 218);
+}
+
+
+/* las tipe fist tipe */
+.elementos p:first-of-type{
+    background-color: yellow;
+}
+
+.elementos p:last-of-type{
+    background-color: rgb(0, 255, 128);
+}
+
+/* list stile non quita el estilo de lista  */
+.lista  {
+    list-style: none;
+}
+
+.lista :nth-child(5) {
+    padding: 15px;
+    background-color: gray;
+    color: blue;
+}
