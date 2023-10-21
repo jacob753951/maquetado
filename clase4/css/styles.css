@@ -1,0 +1,65 @@
+body{
+    font-family:'Courier New', Courier, monospace ;
+    background-color:rgb(41, 41, 40);
+    outline: solid red;
+
+
+}
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(193, 142, 75);
+    margin: 20px;
+    font-size:24px;
+    text-align:center;
+}
+
+/* posocion relativa */
+.relative{
+     position: relative;
+    /* top: 20px;
+    left: 80px;
+    
+    right: 100;
+    bottom: 150px; 
+    outline: solid green; */
+}
+.absolute{
+    position: absolute;
+    background-color: aqua;
+    /* top: 80px;
+    left: 80px; */
+}
+
+.menu{
+    outline: solid yellow;
+    height: 300px;
+}
+
+.menu :nth-child(1){
+    left: 400px;
+}
+.menu :nth-child(2){
+    left: 480px;
+}
+
+.menu :nth-child(3){
+    left: 580px;
+}
+.menu :nth-child(4){
+    left: 25px;
+    top: 25px;
+}
+
+/* posicion fixed */
+
+.fixed {
+    position:fixed; 
+    top: 250px;
+    right: 0px;
+}
+
+ul .list{
+    list-style: none;
+    color: aliceblue;
+}

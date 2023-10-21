@@ -1,0 +1,30 @@
+body{
+  
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    width: 100%;
+}
+
+.list{
+    padding: 20px;
+    width: 80%;
+    outline: solid red;
+    margin: 0 auto;
+    max-width: 450px;
+}
+
+.list ul {
+    list-style: none;
+}
+
+.list-header{
+    background-color: #333;
+    color: #00ff6c;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
