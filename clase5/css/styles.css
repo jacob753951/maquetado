@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color:white
+}
+
+/* menu de Nav */
+
+.menuNav {
+    width: 100%;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+}
+
+.logo {
+    font-size: 2.1em;
+     /* me permite modificar el ancho de un elemento inline y agregar margenes  */
+    display: inline-block
+    ;
+}
+
+.menuNav ul {
+    display: inline;
+    margin-left: auto;
+}
+
+.menuNav ul li {
+    display: inline;
+
+}
+
+.menuNav ul li a {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 10px;
+    font-size: 1.2em;
+    color: #eee;
+  }
+
+  /* aqui va el hober */
+
+  /* imagende fondo en section hero  */
+
+  .bg-imagen{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: url(https://picsum.photos/200/300?grayscale);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .hero-content {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: 40vh;
+  }
+  
+  /* seccion filas de articulos */
+  .fila {
+    width: 100%; /*1000px*/
+    padding: 1em;
+  }
+  
+  .image-container {
+    width: 80%; /*800px*/
+    margin: 0 auto;
+  }
+  
+  .image-container img {
+    width: 100%; /*800px*/
+  }
+  
+  .text-container {
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 2em;
+    text-align: center;
+  }
+  
+  /* estilos responsivos */
+  /* media qiery para tablets */
+  @media screen and (min-width: 601px) and (max-width: 991px) {
+    .hero-content h1 {
+      font-size: 3em;
+    }
+  
+    .hero-content h2 {
+      font-size: 2em;
+      margin: 1em 0;
+    }
+  
+    .hero-content p {
+      font-size: 1.2em;
+    }
+  }
+  
+  /* media query para pantallas medianas para arriba */
+  @media screen and (min-width: 992px) {
+    .hero-content h1 {
+      font-size: 3.5em;
+    }
+  
+    .hero-content h2 {
+      font-size: 2.5em;
+      margin: 1em 0;
+    }
+  
+    .hero-content p {
+      font-size: 1.4em;
+    }
+  }
+  
